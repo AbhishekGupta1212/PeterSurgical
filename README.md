@@ -43,4 +43,12 @@ Run Locally after Clone
 
 ## Screenshots
 
+<h2>Home Page</h2>
+<img src='./src/Images/Homepage.png'/>
 
+<h2>Pie and Table</h2>
+<img src='./src/Images/Chart and table.png'/>
+<h2>Chart with different Year </h2>\
+<img src='./src/Images/Different Year graph.png'/>
+<h2>Mobile View</h2>
+<img src='./src/Images/Mobile.png'>
