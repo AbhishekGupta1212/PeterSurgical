@@ -2,7 +2,7 @@ import { Button, Container, Drawer, DrawerBody, DrawerCloseButton, DrawerContent
 
 import React from 'react'
 
-const ResNav = () => {
+const Navbar2 = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
   return (
@@ -130,4 +130,4 @@ const ResNav = () => {
   )
 }
 
-export default ResNav
+export default Navbar2
