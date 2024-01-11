@@ -24,13 +24,12 @@ const [options, setOptions] = useState({
   yaxis: [
     {
       title: {
-        text: "Emissions",
+        
       },
     },
     {
       opposite: true,
       title: {
-        text: "E/R",
       },
     },
   ],
@@ -85,16 +84,15 @@ useEffect(()=>{
 },[emmissions])
 
 useEffect(() => {
-  // Update graph height when window is resized
   const handleResize = () => {
-    setGraphHeight(window.innerWidth > 600 ? 400 : 250); // Adjust the heights as needed
+    setGraphHeight(window.innerWidth > 600 ? 400 : 250);
   };
   handleResize();
 
-  // Attach event listener for window resize
+  
   window.addEventListener("resize", handleResize);
 
-  // Cleanup event listener on component unmount
+
   return () => {
     window.removeEventListener("resize", handleResize);
   };
